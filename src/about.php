@@ -8,6 +8,7 @@
 	</head>
 
 	<body>
+		<?php include 'header.html';?>
 		<h1>About Me</h1>
 
 		<p>If you would like to find out anything else about me please contact me.</p>

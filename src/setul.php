@@ -8,6 +8,7 @@
 	</head>
 
 	<body>
+		<?php include 'header.html';?>
 		<h1>Spar Employees Trade Union - Lissarda (SETUL)</h1>
 		<p>SETUL is an Ultimate Frisbee club based out of Lissarda. We are a young club that draws from underage and college players from Cork and Dublin. We were founded in 2019 by Evan and Niall Mahony and Danny Datson. Together we are co-founders and co-captains. We represent our favourite place in the parish!</p>
 

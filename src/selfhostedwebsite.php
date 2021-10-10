@@ -8,15 +8,7 @@
 	</head>
 
 	<body>
-        <h1>Evan Mahony's Website</h1>
-
-		<ul class="hlist">
-			<li><a href=index.html>Home</a></li>
-			<li><a href=about.html>About Me</a></li>
-			<li><a href=about.html>Articles</a></li>
-            <li><a href=setul.html>SETU-L</a></li>
-        </ul>
-
+		<?php include 'header.html';?>
         <h2>Self Hosted Website Guide</h2>
         <h3>Introduction</h3>
         <p>
