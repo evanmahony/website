@@ -22,5 +22,6 @@
         <p>
             I choose to use Epik as my DNS server
         </p>
+		<?php include 'footer.html';?>
 	</body>
 </html>

@@ -35,14 +35,24 @@ h1{
 p{
 	font-family: 'Montserrat', sans-serif;}
 
-ul.hlist{
+ul.header{
 	text-align: center;}
 
-ul.hlist li{
+ul.header li{
 	display: inline;
 	font-size: large;
 	font-family: 'Montserrat', sans-serif;}
 
-ul.hlist li:first-child{
-	text-align: left;
-}
+ul.header li:first-child{
+	text-align: left;}
+
+ul.footer{
+	text-align: center;}
+
+ul.footer li{
+	display: inline;
+	font-size: medium;
+	font-family: 'Montserrat', sans-serif;}
+
+ul.footer li:first-child{
+	text-align: left;}

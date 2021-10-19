@@ -30,5 +30,6 @@
 		</ul>
 		
 		<h3>2020 Men's Indoor All Irelands</h3>
+		<?php include 'footer.html';?>
 	</body>
 </html>
