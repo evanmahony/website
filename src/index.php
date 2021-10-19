@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
 	<title>Evan Mahony's Webpage</title>
-	<link rel="stylesheet" href="style.css">
-	<meta charset="utf-8">
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
+	<?php include 'head.html';?>
 </head>
 
 <body>

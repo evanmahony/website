@@ -2,9 +2,7 @@
 <html lang="en">
 	<head>
 		<title>Self Hosted Website</title>
-		<link rel="stylesheet"
-		      href="style.css">
-		<meta charset="utf-8">
+        <?php include 'head.html';?>
 	</head>
 
 	<body>
