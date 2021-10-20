@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 <title>Optiver Volatility</title>
-    <?php include 'static/head.html';?>
+    <?php include '/static/head.html';?>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
 </head>
 
 <body>
-    <?php include 'static/header.html';?>
+    <?php include '/static/header.html';?>
     <h2>Optiver Realized Volatility Prediction</h2>
 
     <h3>Introduction</h3>
@@ -15,6 +16,7 @@
         The goal of the competition was to predict the realized volatility of an asset over the next 10 minutes.
         The data we were given was the prior 10 minutes of the order and trade book.
         Submissions were scored on using the root mean squared percentage error.
+        $$ \text{RMSPE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} ((y_i - \hat{y}_i)/y_i)^2} $$
     </p>
 
     <h3>Approach</h3>
@@ -43,6 +45,6 @@
             <li>Allowing the LSTM to be directional.</li>
         </ul>
     </p>
-    <?php include 'static/footer.html';?>
+    <?php include '/static/footer.html';?>
 </body>
 </html>
