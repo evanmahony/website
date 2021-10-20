@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 	<title>Evan Mahony's Webpage</title>
-	<?php include 'head.html';?>
+	<?php include 'static/head.html';?>
 </head>
 
 <body>
-	<?php include 'header.html';?>
+	<?php include 'static/header.html';?>
 
 	<p>The purpose of this website is to give a bit of information about myself and to publish articles about so of my
 		interests.</p>
@@ -18,6 +18,6 @@
 	<h2>Contact Me</h2>
 	<p>To request a CV or to get in touch with me, please email me at evan99mahony@gmail.com.</p>
 
-	<?php include 'footer.html';?>
+	<?php include 'static/footer.html';?>
 </body>
 </html>

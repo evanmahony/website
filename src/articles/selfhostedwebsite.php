@@ -2,11 +2,11 @@
 <html lang="en">
 	<head>
 		<title>Self Hosted Website</title>
-        <?php include 'head.html';?>
+        <?php include 'static/head.html';?>
 	</head>
 
 	<body>
-		<?php include 'header.html';?>
+		<?php include 'static/header.html';?>
         <h2>Self Hosted Website Guide</h2>
         <h3>Introduction</h3>
         <p>
@@ -20,6 +20,6 @@
         <p>
             I choose to use Epik as my DNS server
         </p>
-		<?php include 'footer.html';?>
+		<?php include 'static/footer.html';?>
 	</body>
 </html>
